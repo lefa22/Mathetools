@@ -17,7 +17,7 @@ def toolsMenu_Wurzeln():
         except:
             L1.configure(text='Ungültige Eingabe!')
     Window_Wurzeln = tk.Toplevel(root)
-    wurzel_bild = tk.PhotoImage(file = 'wurzel-mathematik.png')
+    wurzel_bild = tk.PhotoImage(file = 'Bilder/wurzel-mathematik.png')
     
     img = tk.Label(Window_Wurzeln, image=wurzel_bild)
     img.image = wurzel_bild
@@ -48,7 +48,7 @@ def toolsMenu_Wurzeln():
 
 def toolsMenu_Sudoku():
     Window_Sudoku = tk.Toplevel(root)
-    sudoku_bild = tk.PhotoImage(file = 'sudoku_feld_leer.png')
+    sudoku_bild = tk.PhotoImage(file = 'Bilder/sudoku_feld_leer.png')
     
     img = tk.Label(Window_Sudoku, image=sudoku_bild)
     img.image = sudoku_bild
@@ -61,7 +61,7 @@ def toolsMenu_Sudoku():
 #widgets
 
 ##icon
-icon = tk.PhotoImage(file = 'icon2.png')
+icon = tk.PhotoImage(file = 'icon/icon.png')
 
 ##menu
 menu = tk.Menu(root)
